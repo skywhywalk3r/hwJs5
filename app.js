@@ -66,21 +66,3 @@ switch (color.toLocaleLowerCase()) {
         console.log("It's broken")
 }
 
-const num1 = 10;
-const num2 = 0;
-const operator = "/"; // "+", "-", "*", "/"
-
-
-if (operator === "/" && num2 === 0) {
-    console.warn("Warning you can't decrease 0!");
-} else {
-    let result;
-    if (operator ==="+")result = num1 + num2;
-    if (operator === "-") result = num1 - num2;
-    if (operator === "*") result = num1 * num2;
-    if (operator === "/") result = num1 / num2;
-
-
-    console.log("Result:", result);
-}
-
